@@ -10,7 +10,12 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "pythonPath": "C:Users/kohei.miyamoto/anaconda3/envs/priv_dev/python.exe"
+            "python": "C:/Users/kohei.miyamoto/anaconda3/envs/priv_dev/python.exe",
+            "command": "${command:python.interpreterPath}",
+            "terminal.integrated.shell.windows" : "C:\\Windows\\system32\\cmd.exe",
+            "python.analysis.extraPaths":[
+                "C:/Users/kohei.miyamoto/Documents/deep_learning_from_scratch_2/dataset/spiral.py"
+            ]
         }
     ]
 }
